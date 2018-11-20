@@ -2,7 +2,7 @@
 
 for ((;;))
 do
-	gpio write $((RANDOM%5)) 0
-	gpio write $((RANDOM%5)) 1
+	gpio write $((RANDOM%4)) 0
+	gpio write $((RANDOM%4)) 1
 	sleep 0.25
 done
